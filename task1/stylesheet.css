@@ -1,0 +1,50 @@
+body {
+    background-image: url('../imge/doctor.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-container {
+    width: 50%;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+.form-group.align-top {
+    align-items: flex-start;
+}
+
+label {
+    min-width: 150px;
+}
+
+.checkbox-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-list p {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid #b32d2e;
+    margin-bottom: 20px;
+}
+
+form {
+    font-size: 20px;
+}
